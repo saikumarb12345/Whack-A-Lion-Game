@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #97fefe;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* width: 50rem; */
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+}
+.main h1{
+    font-size: 50px;
+    color: white;
+}
+.main h2{
+    display: inline-block;
+    background-color: blanchedalmond;
+    padding: 12px 6px;
+    border-radius: 15px;
+    margin: 6px;
+}
+button {
+    margin: 4px;
+    width: 12rem;
+    padding: 12px 6px;
+    border-radius: 15px;
+    border: none;
+    background-color: #f159ff;
+    box-shadow: 1px 1px 3px black;
+}
+#pauseGame{
+    display: none;
+}
+button:hover{
+    cursor: pointer;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.square{
+    width: 150px;
+    height: 120px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px dodgerblue;
+    margin: 10px;
+}
+.mole{
+    background:url('./images/download.png');
+    background-size: cover;
+}
